@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+package-lock.json.backup
+
+# Production build
+dist/
+
+# Build tools and caches
+.build-tools/
+.gradle/
+gradle_cache/
+jdk_temp/
+MEEETLY-Windows-App/
+meeetly installer/
+
+# Android build outputs & IDE
+android/.gradle/
+android/build/
+android/app/build/
+android/.idea/
+android/.kotlin/
+.kotlin/
+android/*.iml
+android/app/*.iml
+android/local.properties
+android/captures/
+android/.cxx/
+
+# Large binaries, installers and archives (GitHub limit 100MB)
+*.exe
+*.zip
+*.apk
+*.idsig
+*.tar.gz
+*.rar
+
+# Environment and logs
+.env
+.env.*
+!.env.news.example
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python caches
+__pycache__/
+*.pyc
+.venv/
+env/
+venv/
+
+# SQLite databases & temp files
+data/*.db*
+data/*.sqlite*
+*.db-shm
+*.db-wal
+
+# OS files
+.DS_Store
+Thumbs.db
